@@ -1,0 +1,51 @@
+
+<html>
+    <head>
+        <title>Zadanie 86 </title>
+        
+        <script language="JavaScript">
+            function button1() {
+                p1.innerHTML = "Ostatnio modyfikowany: " + document.lastModified;
+            }
+            function button2() {
+                dzis = new Date();
+                miesiac = parseFloat;
+                miesiac = dzis.getMonth() + 1;
+                p2.innerHTML = "<br> DZIŚ: " + dzis.getDate() + "." + miesiac + "." + dzis.getFullYear();
+            }
+            function button3() {
+                dzis = new Date();
+                p3.innerHTML = "<br> AKTUALNY CZAS: " + dzis.getHours() + ":" + dzis.getMinutes();
+            }
+        </script>
+        <style>
+
+
+body {
+                
+                text-align: center;
+                
+                color: #fff;
+                background-image: url(wp.jpg);
+
+
+
+
+            }
+
+        </style>
+    </head>
+    <body>
+        <form>
+            <a onclick="button1(' ')"><img src="o1.jpg" alt="button1()" border="0" ></a>
+            <a onclick="button2(' ')"><img src="o2.jpg" alt="button2()" border="0" ></a>
+            <a onclick="button3(' ')"><img src="o3.jpg" alt="button3()" border="0" ></a>
+        </form>
+        <table>
+            <tr id="p1"></tr>
+            <tr id="p2"></tr>
+            <tr id="p3"></tr>
+        </table>
+        <center><button class="button" onclick="window.close()">ZAMKNIJ</button></center>
+    </body>
+    </html>

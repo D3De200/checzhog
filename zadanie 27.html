@@ -1,0 +1,53 @@
+
+<html>
+    <head>
+        <title>Cwiczenie 27</title>
+
+        <script type="text/javascript">
+            var auto = {
+                ilosc_miejsc_siedzacych: '140',
+                marka: 'Opel',
+                data_produkcji: '2021',
+                auto_wyswietl_dabrowski: function () {
+                    document.write("Marka: " + this.marka + "<br> ilość miejsc siedzących: " + this.ilosc_miejsc_siedzacych + "<br> data produkcji: " + this.data_produkcji)
+                }
+            }
+            auto.auto_wyswietl_dabrowski();
+            auto.ilosc_miejsc_stojacych = 94;
+            auto.auto_show_dabrowski = function () {
+                alert("UWAGA !!! Ilość miejsc stojących w autobusie to: " + this.ilosc_miejsc_stojacych + "");
+            }
+            auto.auto_show_dabrowski();
+            function WinClose_dabrowski() {
+                window.close();
+            }
+        </script>
+    </head>
+    <body>
+        <br>
+        <br>
+        <center>
+            <textarea rows="17" cols="160" style="background-color: #339100; font-size: 13pt; border-color: #FFF; border-width: 2pt;color:white">
+        <script type="text/javascript">
+            var autobus = {
+                ilosc_miejsc_siedzacych: '140',
+                marka: 'Opel',
+                data_produkcji: '2021',
+                auto_wyswietl_dabrowski: function () {
+                    document.write("Marka: " + this.marka + "<br> ilość miejsc siedzących: " + this.ilosc_miejsc_siedzacych + "<br> data produkcji: " + this.data_produkcji)
+                }
+            }
+            auto.auto_wyswietl_dabrowski();
+            auto.ilosc_miejsc_stojacych = 70;
+            auto.auto_show_dabrowski = function () {
+                alert("UWAGA !!! Ilość miejsc stojących w autobusie to: " + this.ilosc_miejsc_stojacych + "");
+            }
+            autobus.auto_show_dabrowski();
+        </script>
+            </textarea>
+            <br>
+        </center>
+        <center><button class="button" onclick="WinClose_dabrowski()">ZAMKNIJ</button></center>
+    </body>
+    </html>
+    

@@ -1,0 +1,66 @@
+.zadanka {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 34px;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    background-color:  #118000;
+    border: black 3px solid;
+    border-radius: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.zadanka:hover {
+    background-color: #000;
+}
+.zadanka:active {
+    background-color: #000;
+    
+    transform: translateY(4px);
+}
+
+
+
+#container{
+
+width: 1000px;
+margin-left: auto;
+margin-right: auto;
+
+
+
+
+}
+#content{
+width: 1000px;
+padding: 20px;
+text-align: center;
+height: 680px;
+color: #fff;
+
+}
+
+
+#topbar{
+width: 1000px;
+padding: 20px;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+
+
+    
+
+    
+ #stopka{
+
+text-align: left;
+font-size: 15px;
+color: #fff;
+
+
+ }

@@ -1,0 +1,124 @@
+body{
+ background: color #000;   
+    
+    
+    
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Noto+Sans+Mono:wght@600&family=Reem+Kufi+Fun&display=swap');
+
+.zadanka {
+    display: inline-block;
+    padding: 15px 40px;
+    font-size: 34px;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    background-color:  transparent;
+    border: white 3px solid;
+    border-radius: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.zadanka:hover {
+    background-color: #000;
+}
+.zadanka:active {
+    background-color: #000;
+    
+    transform: translateY(4px);
+}
+
+#logo2{
+    width: 1000px;
+    height: 90px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 90px;
+    letter-spacing: 3px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    float: left;
+    
+    padding: 20px;
+
+
+}
+
+#container{
+
+width: 1000px;
+margin-left: auto;
+margin-right: auto;
+
+
+
+
+}
+a {
+    text-decoration: none;
+    
+ }
+ a:hover {
+    text-decoration: none;
+ }
+#content{
+width: 1000px;
+padding: 30px;
+text-align: center;
+height: 600px;
+color: #fff;
+
+font-family: 'Noto Sans Mono', monospace;
+
+
+}
+
+
+#topbar{
+width: 1000px;
+padding: 20px;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+
+#logo{
+    width: 700px;
+    height: 250px;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    margin-top: 90px;
+    letter-spacing: 3px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    float: left;
+    border-right: 5px  dotted #fff;
+    border-top: 5px dotted #fff;
+    border-left: 5px dotted #fff;
+    border-bottom: 5px dotted #fff;
+    padding: 20px;
+    }
+    
+    #gif{
+margin-top: 50px;
+
+width: 100px;
+height: 70px;
+float: right;
+padding: 5px;
+
+    }
+    
+ #stopka{
+
+text-align: left;
+font-size: 15px;
+color: #fff;
+
+
+ }

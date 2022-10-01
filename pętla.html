@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>
+Pętla
+</title>
+<script language="JavaScript"A>
+var liczba1=prompt("R=","");
+var R=parseFloat(liczba1);
+var licznik_dab=0;
+
+for (var i=-R; i<=R;i++){
+
+for(var j=-R; j<=R;j++){
+
+
+document.write("( " +i+  " , " +j+ " )"+" ");
+
+d=Math_sqrt(i*i+j*j);
+
+if(d<=R){
+licznik_dab++;
+
+}
+}
+document.write("<br>");
+
+document.write("N = " +licznik_dab+ " ");
+}
+
+</script>
+</head>
+<body>
+</body>
+</html>
+

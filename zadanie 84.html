@@ -1,0 +1,59 @@
+
+<html>
+    <head>
+        <title>Zadanie 84 </title>
+        
+        
+        <script language="JavaScript">
+            function dabrowski_start() {
+                start_dab = new Date();
+                poczatek_dab= start_dab.getTime();
+            }
+            function dabrowski_stop() {
+                stop_dab = new Date();
+                koniec_dab = stop_dab.getTime();
+                roznica_dab = koniec_dab - poczatek_dab;
+                p1.innerHTML = roznica_dab / 1000 + " s";
+            }
+        </script>
+        <style>
+             body {
+                
+                text-align: center;
+                padding: 2%;
+                
+                color: #fff;
+                background-image: url(wp.jpg);
+
+
+
+
+            }
+            table {
+                border: 8px;
+                border-style: solid;
+                padding: 5px;
+                font-size: 40px;
+            }
+            body {
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <script language="JavaScript">
+            date_dab = new Date();
+            document.write("<br>OBECNY CZAS : ", date_dab.getHours(), ":", date_dab.getMinutes(), "<br>");
+        </script>
+        <input type="button" name="Button1" value="START" onclick="dabrowski_start()">
+        
+        <input type="button" name="Button2" value="STOP" onclick="dabrowski_stop()">
+        
+        <center>
+            <table>
+                <tr id="p1"></tr>
+            </table>
+        </center>
+        <center><button class="button" onclick="window.close()">ZAMKNIJ</button></center>
+    </body>
+    </html>

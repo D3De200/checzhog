@@ -1,0 +1,155 @@
+body{
+    background: color #000;   
+       
+       
+       
+       
+   }
+   @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Noto+Sans+Mono:wght@600&family=Reem+Kufi+Fun&display=swap');
+   
+   .zadanka {
+       display: inline-block;
+       padding: 25px 40px;
+       font-size: 34px;
+       cursor: pointer;
+       text-align: center;
+       color: #000;
+       background-color:  #fff;
+       border: white 3px solid;
+       border-radius: 5px;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       margin-bottom: 30px;
+       margin-left: 20px;
+   }
+   .zadanka:hover {
+       background-color: #000;
+       color: #f0e13c;
+   }
+   .zadanka:active {
+       background-color: #000;
+       
+       transform: translateY(4px);
+   }
+   
+   #logo2{
+       width: 1000px;
+       height: 90px;
+       text-align: center;
+       color: #fff;
+       font-size: 20px;
+       margin-top: 90px;
+       letter-spacing: 3px;
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       font-weight: 900;
+       float: left;
+       
+       padding: 20px;
+   
+   
+   }
+   
+   #container{
+   
+   width: 1000px;
+   margin-left: auto;
+   margin-right: auto;
+   
+   
+   
+   
+   }
+   a {
+       text-decoration: none;
+       
+    }
+    a:hover {
+       text-decoration: none;
+    }
+   #content{
+   width: 1000px;
+   padding: 30px;
+   text-align: left;
+   height: 600px;
+   color: #fff;
+
+   
+   font-family: 'Noto Sans Mono', monospace;
+   
+   
+   }
+   
+   
+   
+   #topbar{
+   width: 1000px;
+   padding: 20px;
+   margin-left: auto;
+   margin-right: auto;
+   
+   }
+   
+   
+   #logo{
+       width: 700px;
+       height: 250px;
+       text-align: center;
+       color: #fff;
+       font-size: 30px;
+       margin-top: 90px;
+       letter-spacing: 3px;
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       font-weight: 900;
+       float: left;
+       border-right: 5px  dotted #fff;
+       border-top: 5px dotted #fff;
+       border-left: 5px dotted #fff;
+       border-bottom: 5px dotted #fff;
+       padding: 20px;
+       }
+       
+       #gif{
+   margin-top: 50px;
+   
+   width: 100px;
+   height: 70px;
+   float: right;
+   padding: 5px;
+   
+       }
+       
+    #stopka{
+   
+   text-align: left;
+   font-size: 15px;
+   color: #fff;
+   
+   
+    }
+   input{
+   
+   
+   
+   width: 200px;
+   color: rgb(36, 35, 42);
+   font-size: 16px;
+   line-height: 20px;
+   min-height: 28px;
+   border-radius: 4px;
+   padding: 25px 16px;
+   border: 2px solid transparent;
+   box-shadow: rgb(0 0 0 / 12%) 0px 1px 3px, rgb(0 0 0 / 24%) 0px 1px 2px;
+   background: rgb(251, 251, 251);
+   transition: all 0.1s ease 0s;
+   
+   
+   }
+   input:hover{
+    background-color: #000;
+    color: #f0e13c;
+    border:2px solid #fff;
+
+
+
+
+
+   }

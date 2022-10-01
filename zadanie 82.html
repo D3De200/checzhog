@@ -1,0 +1,78 @@
+
+<html>
+    <head>
+        <title>Zadanie 82 </title>
+        <link rel="stylesheet" type="text/css" href="style82.css" />
+        
+        <script language="JavaScript">
+            function pushbutton() {
+                alert("WITAM !");
+            }
+        </script>
+        <style>
+            body {
+                
+                text-align: center;
+                
+                color: #fff;
+                background-image: url(wp.jpg);
+
+
+
+
+            }
+            
+            
+
+
+
+
+        </style>
+
+
+
+        
+    </head>
+    
+    <body>
+        <center>
+            <p>DĄBROWSKI</p>
+            <br />
+            <p1>
+                dzis = new Date() --> zmienna dzis przyjmuje informacje o podanym przez nas czasie z dokładną lokalizacją czasową
+                <br />
+                dzis = dzis.getHours() --> zmienna dzis przyjmuje informacje o aktualnej godzinie
+                <br />
+                dzis = dzis.getMinutes() --> zmienna dzis przyjmuje informacje o aktualnej minucie
+                <br />
+                dzis = dzis.getMonth() + 1 --> zmienna dzis przyjmuje informacje o aktualnym miesiącu
+                <br />
+                dzis = dzis.getDate() --> zmienna dzis przyjmuje informacje o aktualnym dniu
+                <br />
+                dzis = dzis.getFullYear() --> zmienna dzis przyjmuje informacje o aktualnym roku
+            </p1>
+            <br />
+            <br />
+            <br />
+            Ostatnio zmodyfikowany
+            <script language="LiveScript">
+                document.write(document.lastModified, "<br>")
+            </script>
+            <br>
+            <br>
+            <button class="button" type="button" name="Button1" value="WCIŚNIJ" onclick="pushbutton()">KLIKNIJ WE MNIE</button>
+            <br>
+            <br>
+            <script language="JavaScript">
+                dzis = new Date()
+                document.write("<br>OBECNY CZAS : ", dzis.getHours(), ":", dzis.getMinutes());
+                document.write("<br>OBENCA DATA : ", dzis.getDate(), ",", dzis.getMonth() + 1, ",", dzis.getFullYear());
+            </script>
+        </center>
+        <br>
+        <br>
+        <br>
+        <center><button class="button" onclick="window.close()">ZAMKNIJ</button></center>
+    </body>
+
+    </html>

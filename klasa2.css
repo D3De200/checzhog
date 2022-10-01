@@ -1,0 +1,28 @@
+body
+{
+background-color:silver;
+font-family:Comic Sans;
+font-size:20px;
+color:black;
+}
+h1
+{
+	font-size:48px;
+	color:lime;
+	
+}
+/*Nieodwiedzony link*/
+a:link
+{
+	color:blue;
+}
+
+/* Odwiedzony link */
+a:visited
+{
+	color:blue;
+}
+caption
+{
+	color:white;
+}

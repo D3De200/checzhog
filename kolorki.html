@@ -1,0 +1,110 @@
+<html>
+<head>
+<meta charset=UTF-8">
+<title> Przyciski</title>
+<link rel="stylesheet" href="kolorki.html">                 
+<button type="button" onclick="myFunction()">Zmiana fonta</button>
+<button type="button" onclick="myFunction2()">Letter spacing</button>
+<button type="button" onclick="myFunction3()">Znikanie</button>
+<button type="button" onclick="myFunction4()">CAPS LOCK</button>
+<br>
+<br>
+<input id="red_text">Red</input>
+<br>
+<br>
+
+<input id="green_text">Green</input>
+<br>
+<br>
+<input id="blue_text">Blue</input>
+<br>
+<br>
+<input id="wys">Wysokość w px</input>
+<br>
+<br>
+<input id="szer">Szerokość w px</input>
+<br>
+<br>
+<button type="button" onclick="myFunction5()">Zatwierdz</button>
+<script>
+function myFunction() {
+  document.getElementById("b1").style.font = "italic bold 20px arial,serif";
+}
+function myFunction2(){
+    document.getElementById("b1").style.letterSpacing = "15px";
+}
+function myFunction3(){
+    document.getElementById("b1").style.visibility = "hidden";
+}
+function myFunction4() {
+  document.getElementById("b1").style.textTransform = "uppercase";
+}
+function myFunction5() {
+  r=parseInt(document.getElementById("red_text").value);
+  g=parseInt(document.getElementById("green_text").value);
+  b=parseInt(document.getElementById("blue_text").value);
+  wys=parseInt(document.getElementById("wys").value);
+  szer=parseInt(document.getElementById("szer").value);
+  document.getElementById('zdj').style.boxShadow="0px 0px 30px 50px rgb("+r+","+g+","+b+")";
+  document.getElementById('zdj').style.height=wys;
+  document.getElementById('zdj').style.width=szer;
+
+}
+</script>
+
+</head>
+<div id="container">
+  
+<body>
+  
+      
+ 
+          
+          
+
+
+
+  <div id="content">
+<form>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  
+  
+  <body>
+    <p id="b1">Czesc co tam?</p>
+    <center>
+        <img id="zdj" src="photo.jpg">
+    </center>
+    
+    
+    
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    
+    </body>
+    </form>
+</body>
+
+</div>
+<div id="stopka">
+
+  <p align="left">&copy; Dominik Dąbrowski 4F</p>
+
+  <p align="center"> <a  href="index.html"  class="zadanka"ALIGN=center BORDER=0 WIDTH=300 HEIGHT=400 >POWRÓT</a> <br> <br>
+</div>
+</div>
+
+</html>

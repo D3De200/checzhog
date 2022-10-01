@@ -1,0 +1,26 @@
+<html>
+<head>
+    <title>
+        parzystosc
+    </title>
+    <script language="JavaScript">
+        function parzystosc(liczba_dab) {
+            liczba = parseFloat(liczba_dab);
+            if (liczba % 2 == 0) {
+                document.write("<font color=lime size=3>Parzysta</font>" + "<br>");
+            }
+            if (liczba % 2 != 0) {
+                document.write("<font color=blue size=5>Nieparzysta</font>" + "<br>");
+            }
+        }
+    </script>
+</head>
+<body>
+    <form name="formularz" action="..." onsubmit="parzystosc(this.liczba_dab.value); return false">
+        <font color="black" size="6">podaj liczbę do sprawdzenia</font><br>
+        <input size="6" name="liczba_dab">
+        <br>
+        <input type="submit" value="Sprawdź">
+    </form>
+</body>
+</html>
